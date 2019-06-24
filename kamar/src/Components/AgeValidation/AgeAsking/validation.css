@@ -1,0 +1,54 @@
+.day, .month {
+    height: 60px;
+    width: 60px;
+    border: 2px solid rgb(238, 228, 228);
+    text-align: center;
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 15px;
+}
+
+.day::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(191, 190, 190);
+    opacity: 1; /* Firefox */
+}
+
+.month::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(191, 190, 190);
+    opacity: 1; /* Firefox */
+}
+
+.year::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(191, 190, 190);
+    opacity: 1; /* Firefox */
+}
+
+.year {
+    height: 60px;
+    width: 100px;
+    border: 2px solid rgb(238, 228, 228);
+    text-align: center;
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 15px;
+}
+
+.month, .year {
+    margin-left: 1%;
+}
+
+.enterBtn {
+    height: 35px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid black;
+    color: rgb(216, 206, 206);
+    margin-top: 1%;
+}
+
+.enterBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.text {
+    font-size: 16px;
+}
